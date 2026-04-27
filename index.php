@@ -12,6 +12,16 @@ and open the template in the editor.
     <body>
         <?php
         // put your code here
-        ?>
+       
+/**
+ * Fichier d'entrée pour le projet E-Fruit
+ * Redirige l'utilisateur vers la page d'authentification
+ */
+
+// Redirection vers acc.php
+header("Location: acc.php");
+exit();
+?>
+        
     </body>
 </html>
